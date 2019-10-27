@@ -1,0 +1,60 @@
+:root {
+    --red: #fc3232;
+    --bread: #fdd522;
+    /* --just-button: #754e00; */
+    --title-font: 'Quicksand', sans-serif;
+    --body-font: 'Monda', sans-serif;
+}
+
+body {
+    background-color: var(--bread);
+    font-family: var(--body-font);
+    color: var(--red);
+    text-align: center;
+}
+
+#text-enter-button {
+    width: 10rem;
+}
+
+#enter_text {
+    width: 20rem;
+    margin: 1rem auto;
+}
+
+.enter_section {
+    margin-bottom: 2rem;
+}
+
+.burgready {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.readyburger,
+.burgereaten,
+.addburger {
+    font-family: var(--title-font);
+    margin-bottom: 1rem;
+}
+
+#ca {
+    background-color: var(--lighter-gray);
+    color: var(--red);
+    font-family: var(--body-font);
+    border-color: var(--gray);
+    border-width: 4px;
+    border-radius: 1px;
+}
+
+.change-eaten,
+.addbutton {
+    /* background-color: var(--just-button); */
+    font-family: var(--body-font);
+    border-width: 4px;
+    border-radius: 1px;
+}
