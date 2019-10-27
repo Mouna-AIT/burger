@@ -7,7 +7,7 @@ $(function() {
             devoured: 'true'
         };
 
-        // Send the PUT request.
+        // Send the PUT request
         $.ajax("/api/burgers/" + id, {
             type: "PUT",
             data: newState
